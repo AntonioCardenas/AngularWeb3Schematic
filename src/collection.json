@@ -1,0 +1,11 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "web3-angular": {
+      "description": "A blank schematic.",
+      "factory": "./web3-angular/index#web3Angular",
+      "aliases": ["init"],
+      "schema": "./web3-angular/schema.json"
+    }
+  }
+}

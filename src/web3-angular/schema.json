@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "options",
+  "title": "Web3 Angular",
+  "type": "object",
+  "properties": {
+    "createDemo": {
+      "description": "Demo App",
+      "type": "boolean",
+      "default": false
+    },
+    "scaffoldStart": {
+      "type": "string",
+      "description": "description",
+      "uniqueItems": true,
+      "default":"noop",
+      "enum": ["starterContract"]
+    },
+    "skipInstall": {
+      "description": "skipInstall",
+      "type": "boolean",
+      "default": false
+    },
+    "test": {
+      "description": "this is a test",
+      "type": "boolean",
+      "default": false
+    },
+    "alreadyInstalled": {
+      "description": "alreadyInstalled",
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

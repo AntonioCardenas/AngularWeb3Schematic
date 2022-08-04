@@ -1,0 +1,21 @@
+
+# Outputs
+src/**/*.js
+src/**/*.js.map
+src/**/*.d.ts
+!src/web3-angular/files/**/*.js
+!src/web3-angular/files/**/*.d.ts
+# IDEs
+.idea/
+jsconfig.json
+.vscode/
+
+# Misc
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Mac OSX Finder files.
+**/.DS_Store
+.DS_Store
